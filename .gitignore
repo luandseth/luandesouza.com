@@ -1,0 +1,14 @@
+### Exclude these folders
+
+./images/
+./images/*
+
+
+### Exclude these files types
+*.jpg
+*.png
+*.pdf
+
+### Exclude this specific file
+
+./css/color.css
