@@ -11,30 +11,33 @@ body {
     font-weight: normal;
 }
 
-.site-container__header {
+.site-container_header {
     background-color: red;
+    display: flex;
+    flex-direction: row;
+    
 }
 
-.site-container__intro {
+.site-container_intro {
 background-color: coral;
 }
 
-.site-container__about {
+.site-container_about {
     background-color: black;
 }
 
-.site-container__workareas {
+.site-container_workareas {
     background-color: yellow;
 }
 
-.site-container__contact {
+.site-container_contact {
     background-color: slategrey;
 }
 
-.site-container__contact {
+.site-container_contact {
     background-color: slateblue;
 }
 
-.site-container__footer {
+.site-container_footer {
     background-color: seagreen;
 }
