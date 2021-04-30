@@ -24,27 +24,27 @@ body {
 
 .site-container_header_name { 
     text-align: center;
-    width: 20%;
-    font-weight: 900;
-    
-
+    font-weight: 700;
+    width: fit-content;
+    margin-left: 10px;
 }
 
 .site-container_header_nav {
+    width: fit-content;
     
-    width: 40%;
 }
+
 
 .site-container_header_nav-ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     margin-right: 25px;
     
 }
 
 .site-container_header_nav-ul-li {
-    
+    padding-right: 10px;
     flex: auto;
     text-align: center;
     text-decoration: none;
