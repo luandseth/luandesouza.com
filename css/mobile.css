@@ -72,7 +72,7 @@ body {
     
     }
     
-    .site-container_intro-text {
+.site-container_intro-text {
         
         display: flex;
         flex-direction: column;
@@ -83,38 +83,56 @@ body {
         max-width: 400px;
     }
     
-    .site-container_intro-text h1 {
+.site-container_intro-text h1 {
         padding-bottom: 10px;
         font-size: 32px;
-        text-align: center;
+        
     }
     
-    .site-container_intro-text p {
+.site-container_intro-text p {
         padding-bottom: 10px;
         padding-top: 10px;
     }
     
-    .site-container_intro-text-link {
-        text-align: center;
+.site-container_intro-text-link {
+        
         
     }
     
-    .site-container_intro-text-link a {
+.site-container_intro-text-link a {
         text-decoration: none;
         border: 5px solid black;
     }
 
 .site-container_about {
     background-color: black;
+    height: 100%;
+}
+
+.site-container_about_desc {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.site-container_about_desc h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.site-container_about_desc p {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 20px;
 }
 
 .site-container_workareas {
     background-color: yellow;
 }
 
-.site-container_contact {
-    background-color: slategrey;
-}
 
 .site-container_contact {
     background-color: slateblue;
