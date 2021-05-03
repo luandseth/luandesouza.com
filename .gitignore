@@ -8,6 +8,7 @@
 *.jpg
 *.png
 *.pdf
+*.svg
 
 ### Exclude this specific file
 
