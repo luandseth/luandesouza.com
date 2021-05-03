@@ -102,7 +102,7 @@ body {
     
 .site-container_intro-text-link a {
         text-decoration: none;
-        border: 5px solid black;
+        
     }
 
 .site-container_about {
@@ -140,9 +140,41 @@ body {
 }
 
 .site-container_contact {
-    background-color: slateblue;
+    background-color: gray;
+    font-size: 24px;
 }
 
 .site-container_footer {
-    background-color: seagreen;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 125px;
+
+}
+
+.site-container_footer_links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 10px;
+}
+
+.site-container_footer_links li {
+    padding-left: 30px;
+}
+
+.site-container_footer a {
+    text-decoration: none;
+}
+
+.site-container_footer img {
+    width: 35px;
+    height: 35px;
+}
+
+.site-container_footer p {
+    padding-bottom: 20px;
 }
