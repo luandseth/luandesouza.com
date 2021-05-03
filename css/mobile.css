@@ -13,7 +13,7 @@ body {
 
 .site-container_header {
     height: 50px;
-    background-color: red;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -63,7 +63,8 @@ body {
 
 
 .site-container_intro {
-    background-color: coral;
+    /* background-color: coral; */
+    background-color: grey;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -105,7 +106,7 @@ body {
     }
 
 .site-container_about {
-    background-color: black;
+    background-color: white;
     height: 100%;
 }
 
@@ -130,9 +131,13 @@ body {
 }
 
 .site-container_workareas {
-    background-color: yellow;
+    background-color: white;
 }
 
+.site-container_workareas-areas_icons {
+    width: 50px;
+    height: 50px;
+}
 
 .site-container_contact {
     background-color: slateblue;

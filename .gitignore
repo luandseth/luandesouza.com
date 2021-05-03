@@ -1,7 +1,7 @@
 ### Exclude these folders
-
-./images/
-./images/*
+./resources/*
+./resources/images/
+./resources/images/*
 
 
 ### Exclude these files types
