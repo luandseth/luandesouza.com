@@ -4,16 +4,16 @@
 } 
 
 body {
-    background-color: #FFFFFF;
+    background-color: #e7c9c7;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
-    color: #A21563;
+    color: #13140e;
     font-weight: bold;
 }
 
 .site-container_header {
     height: 50px;
-    background-color: white;
+    background-color: #e7c9c7;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,7 +33,7 @@ body {
 
 .site-container_header_text {
     
-    margin-top: 3px;
+    margin-top: 6px;
     margin-right: 2px;
     margin-left: -4px;
 }
@@ -64,7 +64,8 @@ body {
 
 .site-container_intro {
     /* background-color: coral; */
-    background-color: grey;
+    color: #e7c9c7;
+    background-color: #13140e;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -106,7 +107,7 @@ body {
     }
 
 .site-container_about {
-    background-color: white;
+    background-color: #e7c9c7;
     height: 100%;
 }
 
@@ -122,6 +123,7 @@ body {
 .site-container_about_desc h3 {
     font-size: 25px;
     padding-bottom: 20px;
+    color: #5b1865;
 }
 
 .site-container_about_desc p {
@@ -131,7 +133,7 @@ body {
 }
 
 .site-container_workareas {
-    background-color: white;
+    background-color: #e7c9c7;
 }
 
 .site-container_workareas-areas_icons {
@@ -140,12 +142,13 @@ body {
 }
 
 .site-container_contact {
-    background-color: gray;
+    background-color: #13140E;
     font-size: 24px;
+    color: #E5446D;
 }
 
 .site-container_footer {
-    background-color: white;
+    background-color: #e7c9c7;
     display: flex;
     flex-direction: column;
     text-align: center;

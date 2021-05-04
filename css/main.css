@@ -4,16 +4,16 @@
 } 
 
 body {
-    background-color: #FFFFFF;
+    background-color: #e7c9c7;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
-    color: #A21563;
+    color: #13140e;
     font-weight: bold;
 }
 
 .site-container_header {
     height: 50px;
-    background-color: white;
+    background-color: #e7c9c7;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,7 +42,7 @@ body {
     height: 30px;
     margin-right: 15px;
     border-radius: 100px;
-    opacity: 0.75;
+    
 }
 
 .site-container_header_nav {
@@ -69,7 +69,8 @@ body {
 
 .site-container_intro {
 /* background-color: coral; */
-background-color: grey;
+color: #e7c9c7;
+background-color: #13140e;
 display:flex;
 flex-direction: row;
 justify-content: center;
@@ -108,10 +109,16 @@ height: 100vh;
 .site-container_intro-text-link a {
     text-decoration: none;
     /* border: 5px solid black; */
+    color: #E5446D;
 }
 
+.background-color-intro {
+    background-color: rgba(229, 68, 109, 1);
+}
+
+
 .site-container_about {
-    background-color: white;
+    background-color: #e7c9c7;
     height: 400px;
 }
 
@@ -123,11 +130,14 @@ height: 100vh;
     align-content: space-between;
     align-items: center;
     height: 100%;
+    color: #E5446D;
 }
 
 .site-container_about_desc h3 {
     font-size: 42px;
     padding-bottom: 30px;
+    color:#5b1865;
+    background-color: ;
 }
 
 .site-container_about_desc p {
@@ -137,14 +147,17 @@ height: 100vh;
     height: 70%;
 }
 .site-container_workareas {
-    background-color: white;
+    background-color: #e7c9c7;
     height: 600px;
+    color:  #E5446D;
 }
 
 .site-container_workareas h3 {
     text-align: center;
     padding: 15px 0px;
     font-size: 32px;
+    color: #5b1865;
+    /* border-top: 3px solid #13140E; */
 }
 
 #site-container_workareas {
@@ -153,7 +166,7 @@ height: 100vh;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 200px 200px;
     gap: 10px;
-
+    
 }
 
 .site-container_workareas-areas_icons {
@@ -166,17 +179,23 @@ height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
+    
 }
 
 .site-container_workareas-areas p {
     padding-top: 10px;
 }
 
+.low-areas-background-color {
+    background-color: rgba(255, 240, 90, 0.6);
+}
+
 .site-container_contact {
-    background-color: gray;
+    background-color: #13140E;
     text-align: center;
     height: 300px;
     font-size: 28px;
+    color: #E5446D;
 }
 
 .site-container_contact-cta {
@@ -192,10 +211,12 @@ height: 100vh;
 
 #site-container_contact-cta-link {
     text-decoration: none;
+    color: #E5446D;
+    background-color:rgba(255, 240, 90, 1) ;
 }
 
 .site-container_footer {
-    background-color: white;
+    background-color: #e7c9c7;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -227,4 +248,5 @@ height: 100vh;
 
 .site-container_footer p{
     padding-bottom: 20px;
+    color: #13140E;
 }
