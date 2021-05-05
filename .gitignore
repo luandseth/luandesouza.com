@@ -2,7 +2,10 @@
 ./resources/*
 ./resources/images/
 ./resources/images/*
-
+./firebase/*
+./firebase/
+./public/*
+./public/
 
 ### Exclude these files types
 *.jpg
@@ -12,4 +15,5 @@
 
 ### Exclude this specific file
 
-./css/color.css
+./firebase.json
+./.firebaserc
