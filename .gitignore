@@ -1,19 +1,29 @@
-### Exclude these folders
+# Exclude these folders
 ./resources/*
 ./resources/images/
 ./resources/images/*
 ./firebase/*
 ./firebase/
-./public/*
-./public/
 
-### Exclude these files types
+
+# Exclude these files types
 *.jpg
 *.png
 *.pdf
 *.svg
 
-### Exclude this specific file
+# Exclude this specific file
 
 ./firebase.json
 ./.firebaserc
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yanr-error.log*
+firebase-debug.log*
+
+# Firebase cache
+.firebase/
