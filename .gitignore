@@ -14,8 +14,8 @@
 
 # Exclude this specific file
 
-./firebase.json
-./.firebaserc
+/firebase.json
+/.firebaserc
 
 # Logs
 logs
