@@ -14,8 +14,8 @@
 
 # Exclude this specific file
 
-./firebase.json
-./.firebaserc
+/firebase.json
+/.firebaserc
 
 # Logs
 logs
@@ -27,3 +27,4 @@ firebase-debug.log*
 
 # Firebase cache
 .firebase/
+node_modules
