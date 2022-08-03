@@ -145,7 +145,7 @@ height: 100vh;
 
 .site-container_about_desc {
     
-    padding-bottom: 20px;
+    padding: 0 40px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
